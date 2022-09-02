@@ -1,0 +1,25 @@
+.introduceCard {
+  background-color: var(--sub-background);
+  position: absolute;
+  top: -200px;
+  left: calc(50% - max(min(60%, 820px), 250px) / 2);
+  width: 60%;
+  min-width: 500px;
+  max-width: 820px;
+  height: 500px;
+  box-shadow: 0 0 15px black;
+  z-index: 10;
+  padding-top: 3%;
+  .content {
+    color: var(--main-text-color);
+    .text {
+      margin: auto;
+      width: 500px;
+      line-height: 2.5rem;
+      font-size: 15px;
+      overflow-wrap: break-word;
+      text-align: center;
+    }
+  }
+ 
+}

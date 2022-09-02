@@ -1,0 +1,15 @@
+.logoArea {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  .logo {
+    color: var(--sub-color);
+    font-weight: bolder;
+    font-size: larger;
+    border-style: double;
+    border-color: var(--sub-color);
+    padding: 10px 5px;
+    margin: 0 auto;
+    line-height: initial;
+  }
+}

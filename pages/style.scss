@@ -1,0 +1,43 @@
+.container {
+  .second-screens {
+    height: 240vh;
+    position: relative;
+    .sea-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("/image/index/plouzane.jpg");
+      background-size: cover;
+      background-position-x: center;
+      filter: grayscale(90%);
+      .mask {
+        width: 100%;
+        height: 100%;
+        background: var(--main-background);
+        opacity: 0.85;
+      }
+    }
+  }
+  .ant-timeline {
+    .ant-timeline-item.ant-timeline-item-right {
+      .ant-timeline-item-content > div {
+        margin: 0 0 0 auto;
+      }
+    }
+    .ant-timeline-item {
+      .ant-timeline-item-tail {
+        transition: height 0.3s linear;
+        border-left: 2px solid var(--sub-color);
+      }
+    }
+  }
+  .ant-timeline.hide {
+    .ant-timeline-item {
+      .ant-timeline-item-tail {
+        height: 0;
+      }
+    }
+  }
+}

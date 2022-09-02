@@ -1,0 +1,29 @@
+.logoArea {
+  display: flex;
+  align-items: center;
+  .logo {
+    color: var(--sub-color);
+    font-weight: bolder;
+    font-size: larger;
+    border-style: double;
+    border-color: var(--sub-color);
+    padding: 10px 5px;
+    line-height: initial;
+  }
+}
+.menu {
+  display: flex;
+  .menuItem {
+    margin: 0 10px;
+    cursor: pointer;
+    color: var(--menu-text-color);
+  }
+  .menuItem:hover {
+    color: var(--menu-text-active);
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  .menuItem.selected {
+    color: var(--sub-color);
+  }
+}
