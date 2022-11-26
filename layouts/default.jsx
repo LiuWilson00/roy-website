@@ -63,10 +63,10 @@ function Default({ children }) {
   const renderMenu = (m) => {
     const toAnchor = () => {
       if (
-        window.location.pathname !== "/" &&
-        window.location.pathname !== "/en"
+        window.location.pathname !== process.env.NEXT_PUBLIC_BASE_PATH &&
+        window.location.pathname !== `${process.env.NEXT_PUBLIC_BASE_PATH}/en`
       ) {
-        window.location.href = `/#${m.href}`;
+        window.location.href = `${process.env.NEXT_PUBLIC_BASE_PATH}/#${m.href}`;
       } else {
         const elementToScrollTo = document.getElementById(m.href);
         elementToScrollTo?.scrollIntoView({
