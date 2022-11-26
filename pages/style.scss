@@ -1,6 +1,6 @@
 .container {
   .second-screens {
-    height: 280vh;
+    height: 300vh;
     position: relative;
     .sea-background {
       position: absolute;
@@ -43,7 +43,7 @@
 @media screen and (max-width: 480px) {
   .container {
     .second-screens {
-      height: 380vh;
+      height: 330vh;
     }
   }
 }
