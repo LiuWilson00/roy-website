@@ -30,3 +30,16 @@
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .introduceCard {
+    left: calc(50% - max(min(30%, 820px), 300px) / 2);
+    width: 30%;
+    min-width: 300px;
+    max-width: 820px;
+    .content {
+      .text {
+        width: 300px;
+      }
+    }
+  }
+}

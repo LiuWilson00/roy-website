@@ -13,9 +13,13 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     if (window) {
+      console.log(window.innerWidth, window.innerHeight);
       const windowsVH = window.innerHeight / 100;
       document.documentElement.style.setProperty("--vh", windowsVH + "px");
-      document.documentElement.style.setProperty("--base-path", process.env.NEXT_PUBLIC_BASE_PATH);
+      document.documentElement.style.setProperty(
+        "--base-path",
+        process.env.NEXT_PUBLIC_BASE_PATH
+      );
     }
   }, []);
 

@@ -5,7 +5,12 @@ import styles from "./style.module.scss";
 
 const SkillScreen = () => {
   const [isScolled, setIsScolled] = useState(false);
+  const [windowSize, setWindowSize] = useState("l");
   // const [currentSkill, setCurrentSkill] = useState();
+
+  useEffect(() => {
+    setWindowSize(window?.innerWidth < 480 ? "s" : "l");
+  }, []);
   const skillRef = useRef();
   const skillList = [
     {
@@ -117,10 +122,11 @@ const SkillScreen = () => {
             <span
               style={{
                 borderRadius: 20,
-                padding: "5px 10px",
+                padding: windowSize === "s" ? "2.5px 5px" : "5px 10px",
                 marginLeft: 5,
                 backgroundColor: "var(--sub-background)",
                 color: "white",
+                fontSize: windowSize === "s" ? 10 : 12,
               }}
               key={s.name}
             >

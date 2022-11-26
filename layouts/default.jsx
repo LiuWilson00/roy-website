@@ -95,19 +95,9 @@ function Default({ children }) {
   };
 
   return (
-    <div className="default-layout" style={{ margin: "0 auto" }}>
+    <div className={styles.defaultLayout} style={{ margin: "0 auto" }}>
       <Layout>
-        <Header
-          style={{
-            background: "var(--main-background)",
-            color: "var(--main-text-color)",
-            display: "flex",
-            justifyContent: "space-around",
-            alignContent: "center",
-            boxShadow: "rgb(0 0 0 / 30%) 0px 3px 4px",
-            zIndex: 100,
-          }}
-        >
+        <Header>
           <Logo
             onClick={() => {
               router.push("/");
@@ -116,6 +106,7 @@ function Default({ children }) {
           <div className={styles.menu}>{menu.map((m) => renderMenu(m))}</div>
         </Header>
         <Content>{children}</Content>
+        {/* {children} */}
       </Layout>
     </div>
   );

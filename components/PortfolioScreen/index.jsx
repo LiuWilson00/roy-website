@@ -8,7 +8,11 @@ import Link from "next/link";
 
 const ProtfolioScreen = () => {
   const [activeId, setActiveId] = useState();
+  const [windowSize, setWindowSize] = useState("l");
 
+  useEffect(() => {
+    setWindowSize(window?.innerWidth < 480 ? "s" : "l");
+  }, []);
   const profolios = [
     {
       id: 0,
@@ -328,6 +332,14 @@ const ProtfolioScreen = () => {
     },
   ];
   const profolioRender = (profolio) => {
+    if (
+      windowSize === "s" && activeId !== undefined && activeId !== profolio.id
+        ? styles.active
+        : ""
+    ) {
+      return <></>;
+    }
+
     return (
       <div
         className={`${styles.profolio} ${
@@ -361,10 +373,23 @@ const ProtfolioScreen = () => {
             PORTFOLIO
           </p>
           <p className={styles.sub}>
-            MY LATEST WORK. <a href={`${process.env.NEXT_PUBLIC_BASE_PATH}/portfolio`}>SEE MORE </a>
+            MY LATEST WORK.{" "}
+            <a href={`${process.env.NEXT_PUBLIC_BASE_PATH}/portfolio`}>
+              SEE MORE{" "}
+            </a>
           </p>
         </div>
-        <div className={styles.profolios}>{profolios.map(profolioRender)}</div>
+        <div
+          className={`${styles.profolioContent}  ${
+            windowSize === "s" && activeId !== undefined
+              ? styles.haveActive
+              : ""
+          }`}
+        >
+          <div className={styles.profolios}>
+            {profolios.map(profolioRender)}
+          </div>
+        </div>
       </div>
     </div>
   );

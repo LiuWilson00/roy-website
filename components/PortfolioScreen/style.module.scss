@@ -27,105 +27,175 @@
         color: var(--menu-text-active);
       }
     }
-    .profolios {
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      .profolio {
-        position: relative;
+    .profolioContent {
+      .profolios {
+        cursor: pointer;
         display: flex;
-        transition: all 500ms;
-        width: 200px;
-        height: 200px;
-        background-position: center;
-        background-size: cover;
-        .mask {
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          transition: all 300ms;
-          width: 100%;
-          height: 0%;
-          z-index: 1;
-          opacity: 0.75;
-          background-color: var(--sub-background);
-        }
-        .title {
-          transition: all 500ms;
-          transition-delay: 300ms;
-          color: white;
-          margin: auto;
-          opacity: 0;
+        justify-content: center;
+        .profolio {
           position: relative;
-          z-index: 10;
-          // display: none;
-          .mainTitle {
-            font-size: 1.75rem;
-          }
-          .subTitle {
-            text-transform: uppercase;
-            font-size: 1rem;
-            color: var(--menu-text-color);
-          }
-        }
-        .activeGroup {
+          display: flex;
+          // overflow: scroll;
           transition: all 500ms;
-          transition-delay: 500ms;
-          position: absolute;
-          left: 0px;
-          width: 100%;
-          opacity: 0;
-          height: 0%;
-          bottom: 0px;
-          z-index: 10;
-          .mainTitle {
-            font-size: 1.75rem;
+          width: 200px;
+          height: 200px;
+          background-position: center;
+          background-size: cover;
+          .mask {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            transition: all 300ms;
+            width: 100%;
+            height: 0%;
+            z-index: 1;
+            opacity: 0.75;
+            background-color: var(--sub-background);
+          }
+          .title {
+            transition: all 500ms;
+            transition-delay: 300ms;
             color: white;
+            margin: auto;
+            opacity: 0;
+            position: relative;
+            z-index: 10;
+            // display: none;
+            .mainTitle {
+              font-size: 1.75rem;
+            }
+            .subTitle {
+              text-transform: uppercase;
+              font-size: 1rem;
+              color: var(--menu-text-color);
+            }
           }
-          .subTitle {
-            text-transform: uppercase;
-            font-size: 1rem;
-            color: var(--menu-text-color);
+          .activeGroup {
+            transition: all 500ms;
+            transition-delay: 500ms;
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            opacity: 0;
+            height: 0%;
+            bottom: 0px;
+            z-index: 10;
+            .mainTitle {
+              font-size: 1.75rem;
+              color: white;
+            }
+            .subTitle {
+              text-transform: uppercase;
+              font-size: 1rem;
+              color: var(--menu-text-color);
+            }
+          }
+        }
+        .profolio:hover {
+          .mask {
+            height: 100%;
+          }
+          .title {
+            // display: inline-block;
+            opacity: 1;
+          }
+        }
+        .profolio.active {
+          width: 400px;
+          height: 350px;
+          .mask {
+            height: 100%;
+          }
+          .title {
+            // display: inline-block;
+            opacity: 0;
+          }
+          .activeGroup {
+            height: 100%;
+            opacity: 1;
+          }
+        }
+        .profolio.nonActive {
+          .mask {
+            background-color: var(--main-background);
+            height: 100%;
+            opacity: 0.9;
+          }
+          .activeGroup {
+            transition-delay: 0s;
+          }
+        }
+        .profolio.nonActive:hover {
+          .mask {
+            background-color: var(--sub-background);
           }
         }
       }
-      .profolio:hover {
-        .mask {
-          height: 100%;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .protfolioScreen {
+    .content {
+      .title {
+        margin-bottom: 30px;
+        .main {
+          font-size: 1.5rem;
+          line-height: 1rem;
+          letter-spacing: 3px;
+          font-weight: bolder;
         }
-        .title {
-          // display: inline-block;
-          opacity: 1;
-        }
-      }
-      .profolio.active {
-        width: 400px;
-        height: 350px;
-        .mask {
-          height: 100%;
-        }
-        .title {
-          // display: inline-block;
-          opacity: 0;
-        }
-        .activeGroup {
-          height: 100%;
-          opacity: 1;
+        .sub {
+          font-size: 0.75rem;
+          letter-spacing: 3px;
         }
       }
-      .profolio.nonActive {
-        .mask {
-          background-color: var(--main-background);
-          height: 100%;
-          opacity: 0.9;
-        }
-        .activeGroup {
-          transition-delay: 0s;
+      .profolioContent {
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        .profolios {
+          width: 1000px;
+          .profolio {
+            .mask {
+              height: 100%;
+            }
+            .title {
+              opacity: 1;
+              .mainTitle {
+                font-size: 1.25rem;
+              }
+              .subTitle {
+                text-transform: uppercase;
+                font-size: 0.75rem;
+                color: var(--menu-text-color);
+              }
+            }
+          }
+          .profolio.active {
+            width: 300px;
+            height: 350px;
+            .mask {
+              height: 100%;
+            }
+            .title {
+              // display: inline-block;
+              opacity: 0;
+            }
+            .activeGroup {
+              height: 100%;
+              opacity: 1;
+            }
+          }
         }
       }
-      .profolio.nonActive:hover {
-        .mask {
-          background-color: var(--sub-background);
+      .profolioContent.haveActive {
+        overflow-x: initial;
+        overflow-y: initial;
+        .profolios {
+          width: 100%;
         }
       }
     }

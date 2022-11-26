@@ -1,9 +1,17 @@
 import styles from "./style.module.scss";
 import Logo from "../Logo";
+import { useEffect, useState } from "react";
 const IntroduceCard = () => {
+  const [logoSize, setLogoSize] = useState(1);
+  useEffect(() => {
+    setLogoSize(window?.innerWidth < 480 ? 1 : 3);
+  }, []);
+
   return (
     <div className={styles.introduceCard}>
-      <Logo size={3}></Logo>
+      <div className={styles.logoGroup}>
+        <Logo size={logoSize}></Logo>
+      </div>
       <div className={styles.content}>
         <div className={styles.text}>
           我是一名軟體工程師,熟悉前端、後端開發,也有資料分析、機器學習、devOps的實務經驗,

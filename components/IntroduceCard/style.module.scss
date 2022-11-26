@@ -21,5 +21,24 @@
       text-align: center;
     }
   }
- 
+}
+@media screen and (max-width: 480px) {
+  .introduceCard {
+    width: 80%;
+    min-width: 0px;
+    left: calc(50% - max(min(80%, 820px), 250px) / 2);
+    top: -250px;
+    height: 450px;
+    .logoGroup {
+      margin: 15px 0px;
+    }
+    .content {
+      .text {
+        width: 270px;
+        font-size: 12px;
+        line-height: 1.75rem;
+        letter-spacing: 1.2px;
+      }
+    }
+  }
 }

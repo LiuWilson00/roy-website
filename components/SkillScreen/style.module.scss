@@ -63,7 +63,7 @@ $skillHeight: calc(100vh + 150px);
         transition: height 0.3s, opacity 0.3s ease-in-out 0.3s;
         height: 0px;
         opacity: 0;
-        overflow: hidden;
+        overflow: scroll;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -102,4 +102,33 @@ $skillHeight: calc(100vh + 150px);
   //   background-color: var(--main-background);
   //   filter: opacity(70%);
   // }
+}
+@media screen and (max-width: 480px) {
+  .skillScreen {
+    padding-top: 235px;
+    .content {
+      .title {
+        margin-bottom: 30px;
+        .main {
+          font-size: 1.5rem;
+          line-height: 1rem;
+          letter-spacing: 3px;
+          font-weight: bolder;
+        }
+        .sub {
+          font-size: 0.75rem;
+          letter-spacing: 3px;
+        }
+      }
+    }
+    .skills {
+      min-width: 0px;
+      width: 300px;
+      .skill {
+        .skillDetail {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
 }

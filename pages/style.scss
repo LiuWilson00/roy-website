@@ -40,3 +40,10 @@
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .container {
+    .second-screens {
+      height: 380vh;
+    }
+  }
+}
