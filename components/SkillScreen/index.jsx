@@ -148,7 +148,7 @@ const SkillScreen = () => {
   }, []);
 
   return (
-    <div className={styles.skillScreen} ref={skillRef}>
+    <div id="professional" className={styles.skillScreen} ref={skillRef}>
       <IntroduceCard></IntroduceCard>
       <div className={styles.background}></div>
       <div className={styles.mask}></div>

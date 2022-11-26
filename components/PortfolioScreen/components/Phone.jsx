@@ -1,3 +1,4 @@
+import { Image } from "antd";
 const Phone = ({ style, children, image, width }) => {
   const phoneWidth = width ?? 100;
   const phoneHeight = width * 2.5;
@@ -14,7 +15,7 @@ const Phone = ({ style, children, image, width }) => {
       }}
     >
       {image ? (
-        <img
+        <Image
           style={{
             width: phoneWidth,
             height: phoneHeight * 0.73,
@@ -22,7 +23,7 @@ const Phone = ({ style, children, image, width }) => {
             borderRadius: 5,
           }}
           src={image}
-        ></img>
+        ></Image>
       ) : (
         <div style={{ margin: "auto" }}>{children}</div>
       )}

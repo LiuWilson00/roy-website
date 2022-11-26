@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Carousel } from "antd";
+
 import Phone from "./components/Phone";
 import Screen from "./components/Screen";
 import styles from "./style.module.scss";
@@ -7,6 +8,7 @@ import Link from "next/link";
 
 const ProtfolioScreen = () => {
   const [activeId, setActiveId] = useState();
+
   const profolios = [
     {
       id: 0,
@@ -105,8 +107,8 @@ const ProtfolioScreen = () => {
       },
     },
     {
-      id: 2,
-      name: "chart",
+      id: 3,
+      name: "backstage",
       img: "/image/portfolio/chart.jpg",
       titleRender: () => {
         return (
@@ -143,6 +145,180 @@ const ProtfolioScreen = () => {
                     image={"/image/portfolio/backstage/backstage3.png"}
                     width={250}
                   ></Screen>
+                </div>
+              </Carousel>
+            </div>
+          </>
+        );
+      },
+    },
+    {
+      id: 4,
+      name: "hr",
+      img: "/image/portfolio/employee.jpg",
+      titleRender: () => {
+        return (
+          <>
+            <div className={styles.mainTitle}>HR系統</div>
+            <div className={styles.subTitle}>
+              Human Resource Information System
+            </div>
+          </>
+        );
+      },
+      contentRender: () => {
+        return (
+          <>
+            <div>
+              <div className={styles.mainTitle}>HR系統</div>
+              <div className={styles.subTitle}>
+                功能豐富的HR系統,包含差勤.薪資計算.總務系統。
+                <Link href="/portfolio?name=hr">
+                  <a href="" style={{ marginLeft: 10 }}>
+                    MORE
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div>
+              <Carousel autoplay dots={false}>
+                <div>
+                  <Screen
+                    style={{ margin: "0 auto" }}
+                    width={250}
+                    image={"/image/portfolio/eip/approval.png"}
+                  ></Screen>
+                </div>
+                <div>
+                  <Screen
+                    style={{ margin: "0 auto" }}
+                    image={"/image/portfolio/eip/leave1.png"}
+                    width={250}
+                  ></Screen>
+                </div>
+                <div>
+                  <Screen
+                    style={{ margin: "0 auto" }}
+                    image={"/image/portfolio/eip/leave2.png"}
+                    width={250}
+                  ></Screen>
+                </div>
+              </Carousel>
+            </div>
+          </>
+        );
+      },
+    },
+    {
+      id: 5,
+      name: "crypto",
+      img: "/image/portfolio/crypto.jpg",
+      titleRender: () => {
+        return (
+          <>
+            <div className={styles.mainTitle}>交易所</div>
+            <div className={styles.subTitle}>Exchange</div>
+          </>
+        );
+      },
+      contentRender: () => {
+        return (
+          <>
+            <div>
+              <div className={styles.mainTitle}>交易所</div>
+              <div className={styles.subTitle}>
+                包含一般交易.合約交易的虛擬貨幣交易平台
+                <Link href="/portfolio?name=crypto">
+                  <a href="" style={{ marginLeft: 10 }}>
+                    MORE
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div>
+              <Carousel autoplay dots={false}>
+                <div>
+                  <Screen
+                    style={{ margin: "0 auto" }}
+                    width={250}
+                    image={"/image/portfolio/crypto/crypto-pc1.png"}
+                  ></Screen>
+                </div>{" "}
+                <div>
+                  <Screen
+                    style={{ margin: "0 auto" }}
+                    width={250}
+                    image={"/image/portfolio/crypto/crypto-pc2.png"}
+                  ></Screen>
+                </div>
+                <div>
+                  <Phone
+                    style={{ margin: "0 auto" }}
+                    image={"/image/portfolio/crypto/crypto-mob4.png"}
+                    width={150}
+                  ></Phone>
+                </div>
+                <div>
+                  <Phone
+                    style={{ margin: "0 auto" }}
+                    image={"/image/portfolio/crypto/crypto-mob5.png"}
+                    width={150}
+                  ></Phone>
+                </div>
+              </Carousel>
+            </div>
+          </>
+        );
+      },
+    },
+    {
+      id: 6,
+      name: "games",
+      img: "/image/portfolio/games.jpg",
+      titleRender: () => {
+        return (
+          <>
+            <div className={styles.mainTitle}>遊戲平台</div>
+            <div className={styles.subTitle}>Game Center</div>
+          </>
+        );
+      },
+      contentRender: () => {
+        return (
+          <>
+            <div>
+              <div className={styles.mainTitle}>遊戲平台</div>
+              <div className={styles.subTitle}>
+                各種各樣的遊戲綜合站台.
+                <Link href="/portfolio?name=gameCenter">
+                  <a href="" style={{ marginLeft: 10 }}>
+                    MORE
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div>
+              <Carousel autoplay dots={false}>
+                <div>
+                  <Phone
+                    style={{ margin: "0 auto" }}
+                    width={150}
+                    image={"/image/portfolio/meta/home1.png"}
+                  ></Phone>
+                </div>{" "}
+                <div>
+                  <Phone
+                    style={{ margin: "0 auto" }}
+                    width={150}
+                    image={"/image/portfolio/blockLottery/home.png"}
+                  ></Phone>
+                </div>
+                <div>
+                  <Phone
+                    style={{ margin: "0 auto" }}
+                    width={150}
+                    image={"/image/portfolio/77lottery/home.png"}
+                  ></Phone>
                 </div>
               </Carousel>
             </div>

@@ -1,9 +1,9 @@
 import styles from "./style.module.scss";
 
 const Logo = (params) => {
-  const { size } = params;
+  const { size, onClick } = params;
   return (
-    <div className={styles.logoArea}>
+    <div className={styles.logoArea} onClick={onClick}>
       <div
         className={styles.logo}
         style={{
