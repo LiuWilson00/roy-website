@@ -216,9 +216,11 @@ function Portfolio() {
         }}
       >
         <div className={styles.profolioList}>
-          {profolios.map((profolio) => {
-            return profolioRender(profolio);
-          })}
+          <div className={styles.profolioContent}>
+            {profolios.map((profolio) => {
+              return profolioRender(profolio);
+            })}
+          </div>
         </div>
         <div className={styles.main}>
           {currentProtfolio.content ? (
