@@ -3,7 +3,10 @@ import styles from "./style.module.scss";
 const MainScreen = () => {
   return (
     <div className={styles.mainScreen}>
-      <div className={styles.background}></div>
+      <div
+        className={styles.background}
+        style={{ background: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/image/index/programmer.jpg")` }}
+      ></div>
       <div className={styles.mask}></div>
       <div className={styles.container}>
         <div className={styles.content}>

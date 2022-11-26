@@ -22,37 +22,37 @@ const Exchange = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob2.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob3.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob4.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob4.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob5.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob5.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob6.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob6.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/crypto/crypto-mob7.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob7.png`}
         ></Phone>
       </div>{" "}
       <div
@@ -64,17 +64,17 @@ const Exchange = () => {
         <Screen
           style={{ margin: 15 }}
           width={250}
-          image={"/image/portfolio/crypto/crypto-pc1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-pc1.png`}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
           width={250}
-          image={"/image/portfolio/crypto/crypto-pc2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-pc2.png`}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
           width={250}
-          image={"/image/portfolio/crypto/crypto-pc3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-pc3.png`}
         ></Screen>
       </div>
     </PortfolioCard>

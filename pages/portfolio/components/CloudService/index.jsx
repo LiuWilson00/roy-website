@@ -21,27 +21,27 @@ const CloudService = () => {
       >
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/aicam.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/aicam.png`}
           width={250}
         ></Screen>
         <Phone
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/aicamDemo1.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/aicamDemo1.jpg`}
           width={125}
         ></Phone>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/aicamDemo2.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/aicamDemo2.gif`}
           width={250}
         ></Screen>
         <Phone
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/aicamDemo3.PNG"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/aicamDemo3.PNG`}
           width={125}
         ></Phone>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/aicamDemo4.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/aicamDemo4.jpg`}
           width={250}
         ></Screen>
       </div>
@@ -53,22 +53,22 @@ const CloudService = () => {
       >
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/brick.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/brick.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/brickDemo1.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/brickDemo1.jpg`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/brickDemo2.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/brickDemo2.gif`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/brickDemo3.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/brickDemo3.gif`}
           width={250}
         ></Screen>
       </div>
@@ -80,7 +80,7 @@ const CloudService = () => {
       >
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/yp/yp.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/yp/yp.jpg`}
           width={250}
         ></Screen>
       </div>

@@ -20,17 +20,17 @@ const Shopping = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/uorder/home.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/uorder/home.jpg`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/uorder/order.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/uorder/order.jpg`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/uorder/record.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/uorder/record.png`}
         ></Phone>
       </div>
     </PortfolioCard>

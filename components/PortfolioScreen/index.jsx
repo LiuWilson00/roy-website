@@ -13,7 +13,7 @@ const ProtfolioScreen = () => {
     {
       id: 0,
       name: "reflex",
-      img: "/image/portfolio/sport.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/sport.jpg`,
       titleRender: () => {
         return (
           <>
@@ -42,13 +42,13 @@ const ProtfolioScreen = () => {
                   <Phone
                     style={{ margin: "0 auto" }}
                     width={150}
-                    image={"/image/portfolio/reflex/reflex2.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex2.png`}
                   ></Phone>
                 </div>
                 <div>
                   <Screen
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/reflex/reflexPC4.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflexPC4.png`}
                     width={250}
                   ></Screen>
                 </div>
@@ -61,7 +61,7 @@ const ProtfolioScreen = () => {
     {
       id: 1,
       name: "chat",
-      img: "/image/portfolio/chat.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chat.jpg`,
       titleRender: () => {
         return (
           <>
@@ -90,13 +90,13 @@ const ProtfolioScreen = () => {
                   <Phone
                     style={{ margin: "0 auto" }}
                     width={150}
-                    image={"/image/portfolio/chatroom/chatroomNormal.gif"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroomNormal.gif`}
                   ></Phone>
                 </div>
                 <div>
                   <Screen
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/chatroom/chatroom.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroom.png`}
                     width={250}
                   ></Screen>
                 </div>
@@ -109,7 +109,7 @@ const ProtfolioScreen = () => {
     {
       id: 3,
       name: "backstage",
-      img: "/image/portfolio/chart.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chart.jpg`,
       titleRender: () => {
         return (
           <>
@@ -136,13 +136,13 @@ const ProtfolioScreen = () => {
                   <Screen
                     style={{ margin: "0 auto" }}
                     width={250}
-                    image={"/image/portfolio/backstage/backstage2.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/backstage/backstage2.png`}
                   ></Screen>
                 </div>
                 <div>
                   <Screen
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/backstage/backstage3.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/backstage/backstage3.png`}
                     width={250}
                   ></Screen>
                 </div>
@@ -155,7 +155,7 @@ const ProtfolioScreen = () => {
     {
       id: 4,
       name: "hr",
-      img: "/image/portfolio/employee.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/employee.jpg`,
       titleRender: () => {
         return (
           <>
@@ -186,20 +186,20 @@ const ProtfolioScreen = () => {
                   <Screen
                     style={{ margin: "0 auto" }}
                     width={250}
-                    image={"/image/portfolio/eip/approval.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/approval.png`}
                   ></Screen>
                 </div>
                 <div>
                   <Screen
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/eip/leave1.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leave1.png`}
                     width={250}
                   ></Screen>
                 </div>
                 <div>
                   <Screen
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/eip/leave2.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leave2.png`}
                     width={250}
                   ></Screen>
                 </div>
@@ -212,7 +212,7 @@ const ProtfolioScreen = () => {
     {
       id: 5,
       name: "crypto",
-      img: "/image/portfolio/crypto.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto.jpg`,
       titleRender: () => {
         return (
           <>
@@ -241,27 +241,27 @@ const ProtfolioScreen = () => {
                   <Screen
                     style={{ margin: "0 auto" }}
                     width={250}
-                    image={"/image/portfolio/crypto/crypto-pc1.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-pc1.png`}
                   ></Screen>
                 </div>{" "}
                 <div>
                   <Screen
                     style={{ margin: "0 auto" }}
                     width={250}
-                    image={"/image/portfolio/crypto/crypto-pc2.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-pc2.png`}
                   ></Screen>
                 </div>
                 <div>
                   <Phone
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/crypto/crypto-mob4.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob4.png`}
                     width={150}
                   ></Phone>
                 </div>
                 <div>
                   <Phone
                     style={{ margin: "0 auto" }}
-                    image={"/image/portfolio/crypto/crypto-mob5.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto/crypto-mob5.png`}
                     width={150}
                   ></Phone>
                 </div>
@@ -274,7 +274,7 @@ const ProtfolioScreen = () => {
     {
       id: 6,
       name: "games",
-      img: "/image/portfolio/games.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/games.jpg`,
       titleRender: () => {
         return (
           <>
@@ -303,21 +303,21 @@ const ProtfolioScreen = () => {
                   <Phone
                     style={{ margin: "0 auto" }}
                     width={150}
-                    image={"/image/portfolio/meta/home1.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/home1.png`}
                   ></Phone>
                 </div>{" "}
                 <div>
                   <Phone
                     style={{ margin: "0 auto" }}
                     width={150}
-                    image={"/image/portfolio/blockLottery/home.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/home.png`}
                   ></Phone>
                 </div>
                 <div>
                   <Phone
                     style={{ margin: "0 auto" }}
                     width={150}
-                    image={"/image/portfolio/77lottery/home.png"}
+                    image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/home.png`}
                   ></Phone>
                 </div>
               </Carousel>

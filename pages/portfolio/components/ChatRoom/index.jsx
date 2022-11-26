@@ -22,26 +22,26 @@ const ChatRoom = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/chatroom/chatroom2.PNG"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroom2.PNG`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/chatroom/chatroom3.PNG"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroom3.PNG`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/chatroom/chatroomNormal.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroomNormal.gif`}
         ></Phone>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/chatroom/chatroom.PNG"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroom.PNG`}
           width={250}
         ></Screen>{" "}
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/chatroom/chatroomRWD.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chatroom/chatroomRWD.gif`}
           width={250}
         ></Screen>
       </div>

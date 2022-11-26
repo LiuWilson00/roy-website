@@ -20,17 +20,17 @@ const Funding = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/funding/about.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/funding/about.jpg`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/funding/home.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/funding/home.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/funding/invite.jpg"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/funding/invite.jpg`}
         ></Phone>
       </div>
     </PortfolioCard>

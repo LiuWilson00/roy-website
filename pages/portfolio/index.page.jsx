@@ -23,7 +23,7 @@ function Portfolio() {
     {
       id: 1,
       name: "reflex",
-      img: "/image/portfolio/sport.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/sport.jpg`,
       titleRender: () => {
         return (
           <>
@@ -37,7 +37,7 @@ function Portfolio() {
     {
       id: 2,
       name: "chatroom",
-      img: "/image/portfolio/chat.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chat.jpg`,
       titleRender: () => {
         return (
           <>
@@ -51,7 +51,7 @@ function Portfolio() {
     {
       id: 3,
       name: "backstage",
-      img: "/image/portfolio/chart.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/chart.jpg`,
       titleRender: () => {
         return (
           <>
@@ -65,7 +65,7 @@ function Portfolio() {
     {
       id: 4,
       name: "hr",
-      img: "/image/portfolio/employee.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/employee.jpg`,
       titleRender: () => {
         return (
           <>
@@ -81,7 +81,7 @@ function Portfolio() {
     {
       id: 5,
       name: "crypto",
-      img: "/image/portfolio/crypto.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/crypto.jpg`,
       titleRender: () => {
         return (
           <>
@@ -95,7 +95,7 @@ function Portfolio() {
     {
       id: 6,
       name: "gameCenter",
-      img: "/image/portfolio/games.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/games.jpg`,
       titleRender: () => {
         return (
           <>
@@ -109,7 +109,7 @@ function Portfolio() {
     {
       id: 7,
       name: "games",
-      img: "/image/portfolio/games2.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/games2.jpg`,
       titleRender: () => {
         return (
           <>
@@ -123,7 +123,7 @@ function Portfolio() {
     {
       id: 8,
       name: "computer",
-      img: "/image/portfolio/computer.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/computer.jpg`,
       titleRender: () => {
         return (
           <>
@@ -137,7 +137,7 @@ function Portfolio() {
     {
       id: 9,
       name: "funding",
-      img: "/image/portfolio/funding.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/funding.jpg`,
       titleRender: () => {
         return (
           <>
@@ -151,7 +151,7 @@ function Portfolio() {
     {
       id: 10,
       name: "uorder",
-      img: "/image/portfolio/shopping.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/shopping.jpg`,
       titleRender: () => {
         return (
           <>
@@ -165,7 +165,7 @@ function Portfolio() {
     {
       id: 11,
       name: "other",
-      img: "/image/portfolio/software.jpg",
+      img: `${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/software.jpg`,
       titleRender: () => {
         return (
           <>

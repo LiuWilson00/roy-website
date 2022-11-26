@@ -21,32 +21,32 @@ const Reflex = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/reflex/reflex2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex2.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/reflex/reflex3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex3.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/reflex/reflex4.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex4.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/reflex/reflex5.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex5.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/reflex/reflex6.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex6.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/reflex/reflex7.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflex7.png`}
         ></Phone>
       </div>
       <div
@@ -57,17 +57,17 @@ const Reflex = () => {
       >
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/reflex/reflexPC1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflexPC1.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/reflex/reflexPC2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflexPC2.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/reflex/reflexPC4.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/reflex/reflexPC4.png`}
           width={250}
         ></Screen>
       </div>

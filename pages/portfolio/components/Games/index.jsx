@@ -22,37 +22,37 @@ const Games = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/home.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/home.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/bet1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/bet1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/bet2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/bet2.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/bet3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/bet3.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/record1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/record1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/result.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/result.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/77lottery/resultDetail.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/77lottery/resultDetail.png`}
         ></Phone>
       </div>{" "}
       <div
@@ -64,33 +64,33 @@ const Games = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/blockLottery/home.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/home.png`}
         ></Phone>
 
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/blockLottery/bet1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/bet1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/blockLottery/bet2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/bet2.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/blockLottery/bet3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/bet3.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/blockLottery/record1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/record1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/blockLottery/record2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/blockLottery/record2.png`}
         ></Phone>
       </div>
     </PortfolioCard>

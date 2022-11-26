@@ -150,7 +150,12 @@ const SkillScreen = () => {
   return (
     <div id="professional" className={styles.skillScreen} ref={skillRef}>
       <IntroduceCard></IntroduceCard>
-      <div className={styles.background}></div>
+      <div
+        className={styles.background}
+        style={{
+          backgroundImage: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/image/index/prossional.jpg")`,
+        }}
+      ></div>
       <div className={styles.mask}></div>
       <div className={styles.content}>
         <div className={styles.title}>

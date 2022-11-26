@@ -21,22 +21,22 @@ const Backstage = () => {
       >
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/backstage/backstage2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/backstage/backstage2.png`}
           width={250}
         ></Screen>{" "}
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/backstage/backstage3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/backstage/backstage3.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/backstage/backstage4.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/backstage/backstage4.png`}
           width={250}
         ></Screen>{" "}
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/backstage/backstage5.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/backstage/backstage5.png`}
           width={250}
         ></Screen>
       </div>

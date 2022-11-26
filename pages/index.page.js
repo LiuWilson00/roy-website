@@ -9,7 +9,7 @@ export default function Home() {
       <MainScreen></MainScreen>
       <SkillScreen></SkillScreen>
       <div className="second-screens">
-        <div className="sea-background">
+        <div className="sea-background" style={{backgroundImage:`url("${process.env.NEXT_PUBLIC_BASE_PATH}/image/index/plouzane.jpg")`}}>
           <div className="mask"></div>
         </div>
         <ProtfolioScreen></ProtfolioScreen>

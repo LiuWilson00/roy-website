@@ -28,22 +28,22 @@ const Other = () => {
         <div style={itemContentStyle}>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/school1.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/school1.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/school2.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/school2.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/school3.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/school3.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/school4.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/school4.png`}
             width={250}
           ></Screen>
         </div>
@@ -53,22 +53,22 @@ const Other = () => {
         <div style={itemContentStyle}>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/ccs.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/ccs.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/resourcing1.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/resourcing1.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/resourcing2.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/resourcing2.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/resourcing3.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/resourcing3.png`}
             width={250}
           ></Screen>
         </div>
@@ -78,32 +78,32 @@ const Other = () => {
         <div style={itemContentStyle}>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/unimicron.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/unimicron.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/ge.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/ge.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/hs.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/hs.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/px.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/px.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/vv.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/vv.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/yc.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/yc.png`}
             width={250}
           ></Screen>
         </div>
@@ -113,27 +113,27 @@ const Other = () => {
         <div style={itemContentStyle}>
           <Phone
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/ai1.jpg"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/ai1.jpg`}
             width={150}
           ></Phone>
           <Phone
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/ai2.jpg"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/ai2.jpg`}
             width={150}
           ></Phone>
           <Phone
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/ai3.jpg"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/ai3.jpg`}
             width={150}
           ></Phone>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/ihsin.png"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/ihsin.png`}
             width={250}
           ></Screen>
           <Screen
             style={{ margin: 15 }}
-            image={"/image/portfolio/other/game.PNG"}
+            image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/other/game.PNG`}
             width={250}
           ></Screen>
         </div>

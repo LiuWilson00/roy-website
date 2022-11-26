@@ -5,7 +5,7 @@ const Phone = ({ style, children, image, width }) => {
   return (
     <div
       style={{
-        backgroundImage: `url("/image/object/phone.png")`,
+        backgroundImage: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/image/object/phone.png")`,
         width: phoneWidth,
         height: phoneHeight,
         backgroundPosition: "center",

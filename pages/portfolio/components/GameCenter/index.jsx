@@ -22,38 +22,38 @@ const GameCenter = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/home1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/home1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/aboutMe1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/aboutMe1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/recharge1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/recharge1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/recharge2.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/recharge2.gif`}
         ></Phone>
 
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/bonus1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/bonus1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/trans1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/trans1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/wallet1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/wallet1.png`}
         ></Phone>
       </div>{" "}
       <div
@@ -65,32 +65,32 @@ const GameCenter = () => {
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/bankCard1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/bankCard1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/bankCard2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/bankCard2.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/bankCard3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/bankCard3.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/record1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/record1.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/record2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/record2.png`}
         ></Phone>
         <Phone
           style={{ margin: 15 }}
           width={150}
-          image={"/image/portfolio/meta/record3.gif"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/meta/record3.gif`}
         ></Phone>
       </div>
     </PortfolioCard>

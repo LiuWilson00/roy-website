@@ -27,7 +27,12 @@ const FooterScreen = () => {
     <>
       <div className={styles.footerScreen}>
         <ConactCard style={{ opacity: isScrolled ? 1 : 0 }}></ConactCard>
-        <div className={styles.background}></div>
+        <div
+          className={styles.background}
+          style={{
+            background: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/image/index/programmer.jpg")`,
+          }}
+        ></div>
         <div className={styles.mask}></div>
       </div>
       <div className={styles.footer}>

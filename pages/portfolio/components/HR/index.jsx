@@ -21,42 +21,42 @@ const HR = () => {
       >
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/approval.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/approval.png`}
           width={250}
         ></Screen>{" "}
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/leave1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leave1.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/leave2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leave2.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/leave3.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leave3.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/leave4.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leave4.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/leaveError1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leaveError1.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/leaveError2.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/leaveError2.png`}
           width={250}
         ></Screen>
         <Screen
           style={{ margin: 15 }}
-          image={"/image/portfolio/eip/password1.png"}
+          image={`${process.env.NEXT_PUBLIC_BASE_PATH}/image/portfolio/eip/password1.png`}
           width={250}
         ></Screen>
       </div>
