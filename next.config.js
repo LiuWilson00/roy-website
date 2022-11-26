@@ -4,4 +4,6 @@ module.exports = {
     loader: "akamai",
     path: "",
   },
+  basePath: "/roy-website",
+  assetPrefix: "/roy-website",
 };
