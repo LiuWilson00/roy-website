@@ -8,7 +8,7 @@ const CloudService = () => {
       subTitle={"Cloud Service"}
       role={["Frontend Engineer"]}
       description={
-        "以SAAS的架構時做的雲端服務,實作的功能包含IoT偵測監控畫面若有異常在社交軟體即時傳訊息,並配合yolo實作物件偵測.以及以WebRTC實作的免安裝C2C通訊軟體,且有配合物件偵測,能夠紀錄會議中的物件.還有webbase的IoT動畫系統,可配合實體玩具的組裝在系統上顯示動等等的雲端服務。"
+        "以SAAS的架構時做的雲端服務，實作的功能包含IoT偵測監控畫面若有異常在社交軟體即時傳訊息，並配合yolo實作物件偵測，以及以WebRTC實作的免安裝C2C通訊軟體，且有配合物件偵測，能夠紀錄會議中的物件。還有webbase的IoT動畫系統，可配合實體玩具的組裝在系統上顯示動等等的雲端服務。"
       }
       technology={["Vue", "Vuetify", "WebRTC"]}
       platform={["web"]}

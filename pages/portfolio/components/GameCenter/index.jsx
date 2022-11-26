@@ -8,7 +8,7 @@ const GameCenter = () => {
       subTitle={"Game Center"}
       role={["Frontend Leader", "Data Analysis"]}
       description={
-        "整合各類遊戲的平台,能夠讓使用者簡單輕鬆的在單一平台使用單一帳號暢遊各類遊戲,並且使用相同的遊戲貨幣,提供彈性的框架適應不同的客戶需求,能夠輕鬆建立不同的模板以滿足不同的情境,且可以運行在各類裝置、平台。"
+        "整合各類遊戲的平台，能夠讓使用者簡單輕鬆的在單一平台使用單一帳號暢遊各類遊戲，並且使用相同的遊戲貨幣，提供彈性的框架適應不同的客戶需求，能夠輕鬆建立不同的模板以滿足不同的情境，且可以運行在各類裝置、平台。"
       }
       technology={["React", "antd", "React Native"]}
       platform={["web", "iOS", "andriod"]}

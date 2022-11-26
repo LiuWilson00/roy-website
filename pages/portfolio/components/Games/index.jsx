@@ -8,7 +8,7 @@ const Games = () => {
       subTitle={"Games"}
       role={["Frontend Leader", "Block Leader", "Blockchain Engineer"]}
       description={
-        "開發各類不同類型的遊戲,包含最新的web3區塊鏈遊戲,同時也採用微服務的設計,可以介接到各種不同的平台,提供彈性的框架適應不同的客戶需求,能夠輕鬆建立不同的模板以滿足不同的情境,且可以運行在各類裝置、平台。"
+        "開發各類不同類型的遊戲，包含最新的web3區塊鏈遊戲，同時也採用微服務的設計，可以介接到各種不同的平台，提供彈性的框架適應不同的客戶需求，能夠輕鬆建立不同的模板以滿足不同的情境，且可以運行在各類裝置、平台。"
       }
       technology={["React", "antd", "React Native", "Solidity"]}
       platform={["web", "iOS", "andriod"]}

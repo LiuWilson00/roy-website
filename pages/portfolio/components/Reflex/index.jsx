@@ -8,7 +8,7 @@ const Reflex = () => {
       subTitle={"REFLEX"}
       role={["Frontend Leader", "Data Analysis"]}
       description={
-        "提供各類運動賽事數據分析、即時的比賽紀錄,並包含各類互動的衍生功能、微商推廣功能,提供彈性的框架適應不同的客戶需求,能夠輕鬆建立不同的模板以滿足不同的情境,且可以運行在各類裝置、平台。"
+        "提供各類運動賽事數據分析、即時的比賽紀錄，並包含各類互動的衍生功能、微商推廣功能，提供彈性的框架適應不同的客戶需求，能夠輕鬆建立不同的模板以滿足不同的情境，且可以運行在各類裝置、平台。"
       }
       technology={["Nuxt.js", "Vuetify", "React Native"]}
       platform={["web", "iOS", "andriod"]}
