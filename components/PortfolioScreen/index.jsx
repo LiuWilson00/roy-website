@@ -361,7 +361,7 @@ const ProtfolioScreen = () => {
             PORTFOLIO
           </p>
           <p className={styles.sub}>
-            MY LATEST WORK. <a href="">SEE MORE </a>
+            MY LATEST WORK. <a href={`${process.env.NEXT_PUBLIC_BASE_PATH}/portfolio`}>SEE MORE </a>
           </p>
         </div>
         <div className={styles.profolios}>{profolios.map(profolioRender)}</div>
