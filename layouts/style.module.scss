@@ -24,6 +24,7 @@
   }
   .menu {
     display: flex;
+    overflow-x: hidden;
     .menuItem {
       margin: 0 10px;
       cursor: pointer;

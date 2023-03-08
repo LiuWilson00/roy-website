@@ -1,3 +1,11 @@
+body {
+  overflow-x: hidden;
+}
+.ant-layout {
+  .ant-layout-header {
+    overflow-x:hidden;
+  }
+}
 .container {
   .second-screens {
     height: 300vh;
