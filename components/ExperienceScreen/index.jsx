@@ -49,6 +49,14 @@ const ExperienceScreen = () => {
       content:
         "是公司前幾個應徵進來的RD，在工作過程漸漸受到技術部主管的賞賜，被賦予了前端團隊主管的職務，在工作過程中自己的能力也逐漸成長，由於是公司的前端主管所以除了要完成功能外，也要建立起團隊的開發架構、規範等，同時也得到很豐富的帶人經驗，和團隊成員、跨部門的同事相處十分融洽，由於公司是接案公司，案子五花八門所以也完成了許多不同領域的專案。",
     },
+    {
+      dates: ["2022", "now"],
+      name: "Authme",
+      job: "Front end developer",
+      show: false,
+      content:
+        "公司主要是研發KYC及相關應用，在公司內的主要業務是進行SDK的維護與開發，在剛進入公司就立即進入狀況解決web當下維運相關的問題，並且在sdk中引入框架、接手wasm的維護，以及實作KYC引擎的測試架構等，並且持續在多變創新的環境適應與成長。",
+    },
   ]);
   const scrollHandler = (el) => {
     const scrollTop = el.target.documentElement.scrollTop;
